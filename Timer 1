@@ -1,0 +1,12 @@
+import time
+def countdown():
+    times = 30
+    while times > 0:
+        print (times)
+        time.sleep(1)
+        times -= 1
+        if  times == 0:
+          print("Timer is  up")
+
+
+countdown()
